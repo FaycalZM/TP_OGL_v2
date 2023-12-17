@@ -71,6 +71,7 @@ public class MatrixMathematics {
 	}
 	
 
+
 	/**
 	 * Transpose of a matrix - Swap the columns with rows
 	 * @param matrix
@@ -87,4 +88,8 @@ public class MatrixMathematics {
 	}
 
 
+
+		return (transpose(cofactor(matrix)).multiplyByConstant(1.0/det));
+		
+		}	
 }

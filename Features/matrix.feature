@@ -2,6 +2,7 @@ Feature: Matrix
   Background:
     Given I have A Matrix
 
+
   Scenario: Determinant
     When I compute determinant of
       | col1 | col2 | col3 |
@@ -24,3 +25,4 @@ Feature: Matrix
 
 
   
+
